@@ -18,8 +18,8 @@ public class Objective4Lab2 {
     double dub2 = keyboard.nextDouble();
     System.out.println("Please enter the third decimal number you would like to add.");
     double dub3 = keyboard.nextDouble();
-    int intsum = num1 + num2 + num3; //i created the variable identifier intsum
-    double dubsum = dub1 + dub2 + dub3; //also created variable identifier dubsum
+    int intsum = num1 + num2 + num3;
+    double dubsum = dub1 + dub2 + dub3;
     System.out.println("The sum of " + num1 + " + " + num2 + " + " + num3 + " = " + intsum);
     System.out.println("The sum of " + dub1 + " + " + dub2 + " + " + dub3 + " = " + dubsum);
 
