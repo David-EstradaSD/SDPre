@@ -4,8 +4,10 @@ public class Objective4Lab1 {
   public static void main(String[] args) {
 
     Scanner keyboard = new Scanner(System.in);
+    //takeaway here is the word "keyboard" and making sure it matches up
     System.out.println("What is your first name?");
     String fname = keyboard.nextLine();
+    //also emphasis on nextLine() being the input function for Strings
     System.out.println("What is your last name?");
     String lname = keyboard.nextLine();
     System.out.println("What is your favorite animal?");
